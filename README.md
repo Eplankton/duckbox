@@ -8,8 +8,10 @@
 ​	本项目共包含三个组成部分：`DuckBox` 为主体硬件，`DuckBox Core`为`DuckBox`上运行的系统程序， `DuckBox Helper`是与之相配套的手机应用程序。
 
 **整体项目效果展示：**
+
     如图所示，左侧在面包板上连接构成的硬件系统为 `DuckBox`，右侧为一部正在运行 `DuckBox Helper` 的手机。
 ![软硬件效果](pic/IMG_20230815_032151.jpg)
+
 
     从左到右，依次为 `DuckBox Helper`的设备界面、功能界面，以及时钟、天气、音乐、游戏这四个模块。
 ![输入图片说明](pic/Screenshot_2023-08-16-00-40-54-580_com.max.blepro.jpg)
