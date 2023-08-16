@@ -30,7 +30,7 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginStart="15dp"
-            android:text="IoT" />
+            android:text="Aliyun" />
 
         <Button
             android:id="@+id/scan_dev_btn"
@@ -39,11 +39,8 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="14dp"
             android:layout_toStartOf="@id/iot_func"
-            android:background="@drawable/shape_scan"
-            android:gravity="center_vertical"
             android:text="@string/start_scan_device"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
+            android:textColor="@color/black" />
 
         <ProgressBar
             android:id="@+id/scan_process_bar"
