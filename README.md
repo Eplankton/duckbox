@@ -21,8 +21,8 @@
 
 
 **硬件原理图：**
-![d](pic/hardware.jpg)
 
+![a](pic/hardware.jpg)
 
 
 **`DuckBox Core `** 运行流程图：
