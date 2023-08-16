@@ -1,4 +1,4 @@
-## DuckBox  智能物联网终端
+## DuckBox  :tw-1f427: 智能物联网终端
 
 
 ### **项目说明：**
@@ -11,18 +11,21 @@
 
 如图所示，左侧在面包板上连接构成的硬件系统为 `DuckBox`，右侧为一部正在运行 `DuckBox Helper` 的手机。
 
-![输入图片说明](pic/IMG_20230815_032151.jpg)
+![a](pic/IMG_20230815_032151.jpg)
 
 
 从左到右，依次为 `DuckBox Helper`的设备界面、功能界面，以及时钟、天气、音乐、游戏这四个模块。
-![输入图片说明](pic/Screenshot_2023-08-16-00-40-54-580_com.max.blepro.jpg)
+
+![b](pic/Screenshot_2023-08-16-00-40-54-580_com.max.blepro.jpg)
 
 
 
 **硬件原理图：**
-![输入图片说明](pic/%E7%A1%AC%E4%BB%B6%E5%8E%9F%E7%90%86.PNG)
+
+![输入图片说明](pic/hardware.PNG)
 
 
 
 **`DuckBox Core `** 运行流程图：
-![输入图片说明](pic/grgfd.PNG)
+
+![d](pic/grgfd.PNG)
