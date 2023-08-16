@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BLE</string>
+    <string name="start_scan_device"> 开始扫描</string>
+    <string name="stop_scan_device">  停止扫描</string>
+    <string name="duckbox_helper">DuckBox</string>
+
+</resources>

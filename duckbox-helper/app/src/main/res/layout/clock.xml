@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="211dp"
+        android:src="@drawable/bkg1" />
+
+    <TextView
+        android:id="@+id/digitalClockAndDate"
+        android:layout_width="386dp"
+        android:layout_height="173dp"
+        android:layout_below="@+id/image_view"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/clock_background"
+        android:fontFamily="@font/omg"
+        android:padding="20dp"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/device_runtime_and_bluetooth_data"
+        android:layout_width="392dp"
+        android:layout_height="240dp"
+        android:layout_below="@id/digitalClockAndDate"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/weather_background"
+        android:fontFamily="@font/omg"
+        android:padding="20dp"
+        android:paddingBottom="20dp"
+        android:text="设备运行时间:\n蓝牙数据..."
+        android:textSize="50sp" />
+
+</RelativeLayout>
