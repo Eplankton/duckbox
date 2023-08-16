@@ -21,11 +21,10 @@
 
 
 **硬件原理图：**
-
-![输入图片说明](pic/hardware.PNG)
+![d](pic/hardware.jpg)
 
 
 
 **`DuckBox Core `** 运行流程图：
 
-![d](pic/grgfd.PNG)
+![d](pic/grgfd.jpg)
