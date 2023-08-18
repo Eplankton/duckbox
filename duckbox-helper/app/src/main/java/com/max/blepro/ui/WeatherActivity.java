@@ -50,7 +50,7 @@ public class WeatherActivity extends Activity implements BluetoothLeService.OnDa
             super.handleMessage(msg);
             if (msg.what == 1) {
                 Bundle bundle = (Bundle) msg.obj;
-                String tmp = "地区  " + diqu + "\n气温  " + weatherTemperature + "℃\n状态  " + weatherText;
+                String tmp = "地区   " + diqu + "\n气温   " + weatherTemperature + "℃\n状态   " + weatherText;
                 weatherInfo.setText(tmp);
                 weatherImage.setImageResource(image[Integer.valueOf(bundle.getString("code")).intValue()]);
             }
@@ -123,7 +123,7 @@ public class WeatherActivity extends Activity implements BluetoothLeService.OnDa
                 return;
             }
 
-            String formattedData = "设备环境：\n" + "温度   " + parts[0].trim() + "℃\n" + "光照   " + parts[1].trim() + "%"; // 在每个部分后面添加相应的符号
+            String formattedData = "设备环境\n" + "温度   " + parts[0].trim() + "℃\n" + "光照   " + parts[1].trim() + "%"; // 在每个部分后面添加相应的符号
             deviceEnvironment.setText(formattedData);     // 更新文本框
         });
     }

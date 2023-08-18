@@ -30,6 +30,7 @@ struct App_t
 inline void K1_ISR()
 {
 	now_at_list = !now_at_list;
+	
 }
 
 inline void home_btn_init()

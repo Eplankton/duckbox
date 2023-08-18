@@ -54,11 +54,11 @@ public class IoTActivity extends AppCompatActivity {
                     SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                     String updateTime = formatter.format(new Date(lightLuxTime));
 
-                    deviceName = " 设备:   " + deviceName;
-                    updateTime = " 更新时间:\n   " + updateTime;
+                    deviceName = " 设备   " + deviceName;
+                    updateTime = " 更新时间\n   " + updateTime;
 
-                    String LLX = " 设备环境\n    光照:   " + lightLuxValue + "%";
-                    String CTX = "    温度:   " + currentTemperatureValue + "℃";
+                    String LLX = " 设备环境\n    光照   " + lightLuxValue + "%";
+                    String CTX = "    温度   " + currentTemperatureValue + "℃";
 
                     device.setText(deviceName);
                     uptime.setText(updateTime);
@@ -73,8 +73,8 @@ public class IoTActivity extends AppCompatActivity {
             e.printStackTrace();
         }
         /* 通过按键发布消息 */
-//        Button pubButton = findViewById(R.id.publish);
-//        pubButton.setOnClickListener(view -> MqttManager.getInstance(getApplicationContext()).publishMessage("我想要告诉服务器，你就是猪"));
+        // Button pubButton = findViewById(R.id.publish);
+        // pubButton.setOnClickListener(view -> MqttManager.getInstance(getApplicationContext()).publishMessage("我想要告诉服务器，你就是猪"));
     }
 }
 

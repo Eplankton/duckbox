@@ -30,7 +30,9 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:layout_marginStart="15dp"
-            android:text="Aliyun" />
+            android:fontFamily="@font/omg"
+            android:text="阿里云"
+            android:textSize="17sp" />
 
         <Button
             android:id="@+id/scan_dev_btn"
@@ -39,8 +41,10 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="14dp"
             android:layout_toStartOf="@id/iot_func"
+            android:fontFamily="@font/omg"
             android:text="@string/start_scan_device"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textSize="17sp" />
 
         <ProgressBar
             android:id="@+id/scan_process_bar"
@@ -66,6 +70,7 @@
             android:layout_height="wrap_content"
             android:divider="@drawable/divider"
             android:dividerHeight="1px"
+            android:padding="5dp"
             android:textColor="@color/black"></ListView>
     </LinearLayout>
 </LinearLayout>

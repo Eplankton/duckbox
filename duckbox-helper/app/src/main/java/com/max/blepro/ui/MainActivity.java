@@ -13,13 +13,10 @@ import android.bluetooth.le.ScanResult;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.ProgressBar;
@@ -29,7 +26,6 @@ import com.max.blepro.adapter.LeDeviceListAdapter;
 import com.max.blepro.R;
 import com.max.blepro.base.StatusNavigationActivity;
 import com.max.blepro.util.LogUtil;
-import com.max.blepro.util.UpdateCommand;
 
 import java.util.List;
 
@@ -60,8 +56,7 @@ public class MainActivity extends StatusNavigationActivity implements View.OnCli
             }
         }
     };
-
-
+    
     private BluetoothLeScanner mBluetoothLeScanner;
 
     void requestPermission() {

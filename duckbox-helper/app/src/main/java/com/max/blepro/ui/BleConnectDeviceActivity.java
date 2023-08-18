@@ -1,29 +1,17 @@
 package com.max.blepro.ui;
 
-import android.bluetooth.BluetoothGatt;
-import android.bluetooth.BluetoothProfile;
 import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.Bundle;
-import android.os.Handler;
 import android.os.IBinder;
-import android.os.Message;
 import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import androidx.annotation.NonNull;
-
 import com.max.blepro.R;
 import com.max.blepro.base.StatusNavigationActivity;
 import com.max.blepro.service.BluetoothLeService;
-import com.max.blepro.util.ChangeTool;
-import com.max.blepro.util.LogUtil;
-import com.max.blepro.util.UpdateCommand;
 
 public class BleConnectDeviceActivity extends StatusNavigationActivity implements BluetoothLeService.OnDataReceivedListener {
 

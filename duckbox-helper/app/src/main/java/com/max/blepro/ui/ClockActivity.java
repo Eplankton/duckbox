@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.max.blepro.R;
 import com.max.blepro.service.BluetoothLeService;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -44,7 +45,7 @@ public class ClockActivity extends Activity implements BluetoothLeService.OnData
                     // 格式化当前时间
                     String tmp = df.format(now);
                     // 显示日期
-                    digitalClockAndDate.setText(tmp);
+                    digitalClockAndDate.setText("当前时间   " + tmp);
                     mBluetoothLeService.sendString(tmp + " ");
                 }
                 handler.postDelayed(this, updatePeriod);
