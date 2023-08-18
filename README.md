@@ -1,4 +1,5 @@
-## DuckBox  :tw-1f427: 智能物联网终端
+## DuckBox 智能物联网终端
+![输入图片说明](pic/logo.PNG)
 
 
 ### **项目说明：**
@@ -18,6 +19,8 @@
 
 ![b](pic/Screenshot_2023-08-16-00-40-54-580_com.max.blepro.jpg)
 
+**APP 下载：**
+![输入图片说明](pic/apk.png)
 
 
 **硬件原理图：**
