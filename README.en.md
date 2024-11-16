@@ -1,36 +1,30 @@
-# DuckBox
+## DuckBox IoT System
+![Input Image Description](pic/logo.PNG)
 
-#### Description
-华东师范大学《创客实践》课程项目
+### **Project Description:**
 
-#### Software Architecture
-Software architecture description
+`DuckBox` is an intelligent IoT system.
 
-#### Installation
+This project consists of three main components: `DuckBox` as the main hardware, `DuckBox Core` as the system program running on `DuckBox`, and `DuckBox Helper` as the companion mobile application.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+**Overall Project Demonstration:**
 
-#### Instructions
+As shown in the figure, the hardware system constructed on the breadboard on the left is `DuckBox`, and the mobile phone on the right is running the `DuckBox Helper` application.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+![a](pic/IMG_20230815_032151.jpg)
 
-#### Contribution
+From left to right, the interfaces of `DuckBox Helper` include the device interface, function interface, and four modules: clock, weather, music, and games.
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+![b](pic/Screenshot_2023-08-16-00-40-54-580_com.max.blepro.jpg)
 
+**APP Download:**
 
-#### Gitee Feature
+![Input Image Description](pic/apk.png)
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+**Hardware Schematic:**
+
+![a](pic/hardware.jpg)
+
+**`DuckBox Core`** Flowchart:
+
+![d](pic/grgfd.jpg)
