@@ -9,9 +9,10 @@
 
 As shown in the figure, the hardware system constructed on the breadboard on the left is `DuckBox`, and the mobile phone on the right is running the `DuckBox Helper` application.
 
-- `STM32F103` as system motherboard
-- `ESP32C3-DevKit` as WiFi source
-- `8x8 LED Matrix` as Display
+- `STM32F103-BlackPill` as system motherboard
+- `ESP32C3-DevKit` as WiFi communication
+- `HC-08` as BLE communication
+- `8x8 LED-Matrix` as Display
 
 ![a](pic/IMG_20230815_032151.jpg)
 
