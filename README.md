@@ -1,34 +1,32 @@
-## DuckBox 智能物联网终端
-![输入图片说明](pic/logo.PNG)
+## DuckBox IoT System
+![Input Image Description](pic/logo.PNG)
 
+### **About:**
 
-### **项目说明：**
+`DuckBox` is an intelligent IoT system consists of three main components: `DuckBox` as the main hardware board, `DuckBox Core` as the software running on `DuckBox`, and `DuckBox Helper` as the companion mobile application.
 
-​	根据《创客实践》课程期末考查方案相关要求，`DuckBox` 是以 `Arduino Nano 3` 开发板为核心实现的智能软硬件物联网系统。
+**Demo:**
 
-​	本项目共包含三个组成部分：`DuckBox` 为主体硬件，`DuckBox Core`为`DuckBox`上运行的系统程序， `DuckBox Helper`是与之相配套的手机应用程序。
+As shown in the figure, the hardware system constructed on the breadboard on the left is `DuckBox`, and the mobile phone on the right is running the `DuckBox Helper` application.
 
-**整体项目效果展示：**
-
-如图所示，左侧在面包板上连接构成的硬件系统为 `DuckBox`，右侧为一部正在运行 `DuckBox Helper` 的手机。
+- `STM32F103` as system motherboard
+- `ESP32C3-DevKit` as WiFi source
+- `8x8 LED Matrix` as Display
 
 ![a](pic/IMG_20230815_032151.jpg)
 
-
-从左到右，依次为 `DuckBox Helper`的设备界面、功能界面，以及时钟、天气、音乐、游戏这四个模块。
+From left to right, the interfaces of `DuckBox Helper` include the device interface, function interface, and four modules: clock, weather, music, and games.
 
 ![b](pic/Screenshot_2023-08-16-00-40-54-580_com.max.blepro.jpg)
 
-**APP 下载：**
+**APP Download:**
 
-![输入图片说明](pic/apk.png)
+![Input Image Description](pic/apk.png)
 
-
-**硬件原理图：**
+**Hardware Schematic:**
 
 ![a](pic/hardware.jpg)
 
-
-**`DuckBox Core `** 运行流程图：
+**`DuckBox Core`** Flowchart:
 
 ![d](pic/grgfd.jpg)
